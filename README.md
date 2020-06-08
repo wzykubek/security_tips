@@ -65,6 +65,9 @@ Avoid sites without correct HTTPS certificate. **Never login to sites when conne
 \- when in address bar you see HTTP instead of HTTPS.** Your login data isn't secure without encryption.
 This is easiest way to cracker to intercept your data.
 
+*To website owners: You can get HTTPS certificate for free on [Let's encrypt](https://letsencrypt.org/).
+Don't expose users to data loss when you can very simply (at 5 minutes) apply TLS on your site.*
+
 ### Always check address before login
 
 You always should checking address before login to website, **especially your bank's site**. You can
@@ -74,6 +77,9 @@ make a typo in URL and come in this way to fake website on similar domain. This 
 ### Be careful with mails attachments
 
 Never open attachments in mails from unknow addresses **especially if it's executable file**.
+
+If you are office worker good practice is using mail client inside Virtual Machine separated
+from host system. This will protect your main system from malware.
 
 ## Browser addons
 
@@ -110,7 +116,7 @@ Example of the best type of password:
 Unfortunately some sites don't allow to generate password looks like this but still you can generate
 secure password using only accepted characters and with characters limit to 20.
 
-*for website owners: This is very stupid practice to limits password lenght, please don't do that!*
+*To website owners: This is very stupid practice to limits password lenght, please don't do that!*
 ```
 q8;>C'j}f~'\&!ts'Em3
 ```
@@ -131,6 +137,9 @@ If site have possibility to enable 2FA - do it. You can download authentication 
 If you don't want your secret data leak you should encrypt it for example with [GPG](https://gnupg.org/)
 Encryption. You can encrypt your data only for oneself or via your frind's
 public key so only you and your friend can read this.
+
+More information about creating GPG key pair and usage tutorial you can find on
+[this](https://dewinter.com/gnupg_howto/english/GPGMiniHowto.html) site.
 
 # SSH Server
 
