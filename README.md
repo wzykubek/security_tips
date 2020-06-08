@@ -48,9 +48,12 @@
 
 ## Android
 
-+ Don't activate root account or unlock bootloader in your phone.
 + Don't download APKs from insecure sites - use Google Play (or Aurora Store) and F-Droid.
 + Don't give permissions which are not required to applications.
++ Don't allow unverified apps to use root perrmisions (if root is unlocked) or don't unlock root
+account if isn't good reason to do that.
++ Do not disable encryption if you are moding your phone unless your custom ROM doesn't works well
+with encryption.
 
 # Surfing on internet
 
