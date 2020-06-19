@@ -189,3 +189,4 @@ PasswordAuthentication no
 
 + [Have I been pwned?](https://haveibeenpwned.com/) - if you see message not equal to "Good news — no pwnage found!"
 after type your e-mail address you should immediately change passwords to your accounts!
++ [PrivacyTools.io](https://PrivacyTools.io) - PrivacyTools provides services, tools and knowledge to protect your privacy against global mass surveillance.
